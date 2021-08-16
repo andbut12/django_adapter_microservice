@@ -1,0 +1,14 @@
+.docker/
+.git/
+.idea/
+.vscode/
+
+static/
+venv/
+testing_venv/
+
+ctp_cs/*local.py
+*.sqlite3
+*.pyc
+*.pyo
+.gitignore

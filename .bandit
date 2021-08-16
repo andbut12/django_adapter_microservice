@@ -1,0 +1,2 @@
+[bandit]
+exclude: /venv, /testing_venv

@@ -1,0 +1,7 @@
+-r requirements.txt
+isort==4.3.21
+pylint==2.5.3
+mypy==0.770
+flake8==3.8.2
+bandit==1.6.2
+coverage==5.2

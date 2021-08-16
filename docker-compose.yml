@@ -1,0 +1,8 @@
+version: "3"
+
+services:
+  gunicorn:
+    build: .
+    command: gunicorn example_eshop.wsgi:application --bind :80 --timeout 6000 --workers=2
+    environment:
+      - ENV=dev
